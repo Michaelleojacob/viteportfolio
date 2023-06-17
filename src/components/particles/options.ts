@@ -57,7 +57,7 @@ const options: ISourceOptions = {
       consent: false,
       distance: 150,
       enable: false,
-      opacity: 0.6,
+      opacity: 0.3,
       shadow: {
         blur: 5,
         color: {
@@ -68,26 +68,26 @@ const options: ISourceOptions = {
       width: 1,
     },
     move: {
-      direction: "bottom",
+      direction: "top",
       enable: true,
-      speed: 1,
+      speed: 0.25,
     },
     collisions: {
       enable: true,
     },
     number: {
       limit: -1,
-      value: 80,
+      value: 160,
     },
     opacity: {
       animation: {
-        enable: true,
+        enable: false,
         speed: 1,
         sync: false,
       },
       value: {
-        min: 0.1,
-        max: 0.5,
+        min: 0.2,
+        max: 0.2,
       },
     },
     shape: {
@@ -95,14 +95,14 @@ const options: ISourceOptions = {
     },
     size: {
       value: {
-        min: 1,
-        max: 10,
+        min: 2,
+        max: 5,
       },
     },
   },
   pauseOnBlur: true,
   background: {
-    color: "#333333",
+    color: "#10121b",
     image: "",
     position: "50% 50%",
     repeat: "no-repeat",
