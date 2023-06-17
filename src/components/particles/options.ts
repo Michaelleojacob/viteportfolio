@@ -70,14 +70,14 @@ const options: ISourceOptions = {
     move: {
       direction: "bottom",
       enable: true,
-      speed: 3,
+      speed: 1,
     },
     collisions: {
       enable: true,
     },
     number: {
       limit: -1,
-      value: 160,
+      value: 80,
     },
     opacity: {
       animation: {
@@ -102,7 +102,7 @@ const options: ISourceOptions = {
   },
   pauseOnBlur: true,
   background: {
-    color: "#0d47a1",
+    color: "#333333",
     image: "",
     position: "50% 50%",
     repeat: "no-repeat",
