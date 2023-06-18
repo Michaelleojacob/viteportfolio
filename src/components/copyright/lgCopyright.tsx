@@ -1,4 +1,4 @@
-import CopyrightIcon from "@mui/icons-material/Copyright";
+import { BiCopyright } from "react-icons/bi";
 
 const LgCopyright = () => {
   return (
@@ -6,7 +6,7 @@ const LgCopyright = () => {
       <div>michaelleojacob</div>
       <div className="flex">
         <span className="flex items-center">
-          <CopyrightIcon sx={{ fontSize: "2rem" }} />
+          <BiCopyright />
           2024
         </span>
       </div>
