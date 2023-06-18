@@ -3,7 +3,6 @@ import AppRouter from "./router";
 import { BrowserRouter } from "react-router-dom";
 import NavBar from "./components/nav/navbar";
 import { ScreenSizeProvider } from "./contextProviders/screenSizeContext";
-import TestScreenSize from "./components/testComponents/testScreenSize";
 import "./App.css";
 
 const App = () => {
@@ -12,7 +11,6 @@ const App = () => {
       <BrowserRouter>
         <ScreenSizeProvider>
           <NavBar />
-          <TestScreenSize />
           <AppRouter />
         </ScreenSizeProvider>
       </BrowserRouter>

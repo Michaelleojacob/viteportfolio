@@ -5,11 +5,7 @@ const TestScreenSize = () => {
   const screenSize = useContext(ScreenSizeContext);
   console.log(screenSize);
 
-  return (
-    <>
-      <div>{screenSize}</div>
-    </>
-  );
+  return <></>;
 };
 
 export default TestScreenSize;
