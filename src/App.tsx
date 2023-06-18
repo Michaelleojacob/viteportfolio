@@ -2,6 +2,7 @@ import ParticleAnimation from "./components/particles/particles";
 import AppRouter from "./router";
 import { BrowserRouter } from "react-router-dom";
 import NavBar from "./components/nav/navbar";
+import "./App.css";
 
 const App = () => {
   return (

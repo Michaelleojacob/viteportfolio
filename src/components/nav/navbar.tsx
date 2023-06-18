@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <div className="flex text-white gap-4 text-4xl">
+    <div className="flex gap-4">
       <NavLink className="hover:text-red-500" to="/">
         Home
       </NavLink>
