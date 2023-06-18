@@ -1,18 +1,29 @@
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
+import { Box, List, ListItemButton } from "@mui/material";
 
 const NavLgScreen = () => {
+  const location = useLocation();
+
   return (
-    <div className="flex flex-col">
-      <NavLink className="hover:text-red-500" to="/">
-        Home
-      </NavLink>
-      <NavLink className="hover:text-red-500" to="/about">
-        About
-      </NavLink>
-      <NavLink className="hover:text-red-500" to="/contact">
-        Contact
-      </NavLink>
-    </div>
+    <Box>
+      <List>
+        <NavLink to="">
+          <ListItemButton selected={location.pathname === "/"}>
+            home
+          </ListItemButton>
+        </NavLink>
+        <NavLink to="/about">
+          <ListItemButton selected={location.pathname === "/about"}>
+            about
+          </ListItemButton>
+        </NavLink>
+        <NavLink to="/contact">
+          <ListItemButton selected={location.pathname === "/contact"}>
+            contact
+          </ListItemButton>
+        </NavLink>
+      </List>
+    </Box>
   );
 };
 export default NavLgScreen;
