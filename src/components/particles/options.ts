@@ -5,7 +5,7 @@ const options: ISourceOptions = {
   interactivity: {
     events: {
       onClick: {
-        enable: true,
+        enable: false,
         mode: "remove",
       },
     },
