@@ -6,9 +6,8 @@ import NavSmScreen from "./smScreen";
 const NavBar = () => {
   const screenSize = useContext(ScreenSizeContext);
   return (
-    <div className="flex justify-between">
-      <div>logo</div>
-      <div>{screenSize === "small" ? <NavSmScreen /> : <NavLgScreen />}</div>
+    <div className="flex p-4 border-b-4 border-borderColor">
+      {screenSize === "small" ? <NavSmScreen /> : <NavLgScreen />}
     </div>
   );
 };
