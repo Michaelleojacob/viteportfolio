@@ -1,17 +1,14 @@
-import { NavLink } from "react-router-dom";
+import { useContext } from "react";
+import { ScreenSizeContext } from "../../contextProviders/screenSizeContext";
+import NavLgScreen from "./lgScreen";
+import NavSmScreen from "./smScreen";
 
 const NavBar = () => {
+  const screenSize = useContext(ScreenSizeContext);
   return (
-    <div className="flex gap-4">
-      <NavLink className="hover:text-red-500" to="/">
-        Home
-      </NavLink>
-      <NavLink className="hover:text-red-500" to="/about">
-        About
-      </NavLink>
-      <NavLink className="hover:text-red-500" to="/contact">
-        Contact
-      </NavLink>
+    <div className="flex justify-between">
+      <div>logo</div>
+      <div>{screenSize === "small" ? <NavSmScreen /> : <NavLgScreen />}</div>
     </div>
   );
 };
