@@ -7,7 +7,10 @@ const StickyDrawer = () => {
       <div className="flex flex-col items-center justify-between h-full">
         <LgLogo />
         <NavLgScreen />
-        <div>@2023</div>
+        <div>
+          <div>michaelleojacob</div>
+          <div>@2023</div>
+        </div>
       </div>
     </div>
   );
