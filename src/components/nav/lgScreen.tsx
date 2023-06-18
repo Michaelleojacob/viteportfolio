@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const NavLgScreen = () => {
   return (
-    <div className="flex gap-4">
+    <div className="flex flex-col">
       <NavLink className="hover:text-red-500" to="/">
         Home
       </NavLink>

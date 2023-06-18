@@ -3,22 +3,23 @@ import TextDump from "./textDump";
 const Home = () => {
   return (
     <>
-      <div>Home</div>
-      <TextDump amount={200} />
+      <div className="flex-1 pl-64">
+        <TextDump amount={200} />
+      </div>
     </>
   );
 };
 const About = () => {
   return (
     <>
-      <div>About</div>
+      <div className="flex-1 pl-64">About</div>
     </>
   );
 };
 const Contact = () => {
   return (
     <>
-      <div>Contact</div>
+      <div className="flex-1 pl-64">Contact</div>
     </>
   );
 };
