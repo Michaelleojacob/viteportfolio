@@ -5,20 +5,29 @@ const NavLgScreen = () => {
   const location = useLocation();
 
   return (
-    <Box>
+    <Box className="w-full">
       <List>
         <NavLink to="">
-          <ListItemButton selected={location.pathname === "/"}>
+          <ListItemButton
+            selected={location.pathname === "/"}
+            sx={{ justifyContent: "center" }}
+          >
             home
           </ListItemButton>
         </NavLink>
         <NavLink to="/about">
-          <ListItemButton selected={location.pathname === "/about"}>
+          <ListItemButton
+            selected={location.pathname === "/about"}
+            sx={{ justifyContent: "center" }}
+          >
             about
           </ListItemButton>
         </NavLink>
         <NavLink to="/contact">
-          <ListItemButton selected={location.pathname === "/contact"}>
+          <ListItemButton
+            selected={location.pathname === "/contact"}
+            sx={{ justifyContent: "center" }}
+          >
             contact
           </ListItemButton>
         </NavLink>
