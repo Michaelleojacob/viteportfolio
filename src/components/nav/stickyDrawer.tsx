@@ -1,5 +1,6 @@
 import LgLogo from "../logo/lgLogo";
 import NavLgScreen from "./lgScreen";
+import LgCopyright from "../copyright/lgCopyright";
 
 const StickyDrawer = () => {
   return (
@@ -7,10 +8,7 @@ const StickyDrawer = () => {
       <div className="flex flex-col items-center justify-between h-full">
         <LgLogo />
         <NavLgScreen />
-        <div>
-          <div>michaelleojacob</div>
-          <div>@2023</div>
-        </div>
+        <LgCopyright />
       </div>
     </div>
   );
