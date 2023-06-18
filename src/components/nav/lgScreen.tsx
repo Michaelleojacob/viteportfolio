@@ -31,6 +31,14 @@ const NavLgScreen = () => {
             contact
           </ListItemButton>
         </NavLink>
+        <NavLink to="/apps">
+          <ListItemButton
+            selected={location.pathname === "/apps"}
+            sx={{ justifyContent: "center" }}
+          >
+            apps
+          </ListItemButton>
+        </NavLink>
       </List>
     </Box>
   );

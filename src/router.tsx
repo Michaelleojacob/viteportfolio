@@ -4,6 +4,7 @@ import {
   About,
   Contact,
 } from "./components/testComponents/testComponents";
+import AppRenderer from "./components/apps/appRenderer";
 
 const AppRouter = () => {
   return (
@@ -11,6 +12,7 @@ const AppRouter = () => {
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/apps" element={<AppRenderer />} />
     </Routes>
   );
 };
