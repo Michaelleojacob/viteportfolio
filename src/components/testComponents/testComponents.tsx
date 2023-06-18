@@ -3,7 +3,7 @@ import TextDump from "./textDump";
 const Home = () => {
   return (
     <>
-      <div className="flex-1 pl-64">
+      <div>
         <TextDump amount={200} />
       </div>
     </>
@@ -12,14 +12,14 @@ const Home = () => {
 const About = () => {
   return (
     <>
-      <div className="flex-1 pl-64">About</div>
+      <div>About</div>
     </>
   );
 };
 const Contact = () => {
   return (
     <>
-      <div className="flex-1 pl-64">Contact</div>
+      <div>Contact</div>
     </>
   );
 };

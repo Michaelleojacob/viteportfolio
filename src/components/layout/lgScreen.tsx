@@ -4,8 +4,12 @@ import StickyDrawer from "../nav/stickyDrawer";
 const LargeScreenLayout = () => {
   return (
     <div className="flex">
-      <StickyDrawer />
-      <AppRouter />
+      <div className="w-64">
+        <StickyDrawer />
+      </div>
+      <div className="flex-1 p-4">
+        <AppRouter />
+      </div>
     </div>
   );
 };
