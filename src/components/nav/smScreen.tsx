@@ -4,8 +4,8 @@ import Button from "@mui/material/Button";
 const NavSmScreen = () => {
   return (
     <div>
-      <Button>
-        <MenuIcon />
+      <Button variant="contained" sx={{ fontSize: "2rem" }}>
+        <MenuIcon sx={{ fontSize: "2rem" }} />
       </Button>
     </div>
   );
