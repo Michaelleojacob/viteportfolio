@@ -4,7 +4,6 @@ export default {
   theme: {
     extend: {
       colors: {
-        logoborder: "##2e344e",
         borderColor: "#2e344e",
       },
     },

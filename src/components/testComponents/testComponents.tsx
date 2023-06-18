@@ -1,7 +1,10 @@
+import TextDump from "./textDump";
+
 const Home = () => {
   return (
     <>
       <div>Home</div>
+      <TextDump amount={200} />
     </>
   );
 };
