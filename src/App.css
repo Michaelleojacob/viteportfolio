@@ -2,3 +2,40 @@ body {
   color: white;
   font-size: 2rem;
 }
+
+body {
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  width: 4px; /* Adjust the width as needed */
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #10121b; /* Background color of the scrollbar track */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #4b5563; /* Set the color of the scrollbar thumb */
+  min-height: 200px;
+  border-radius: 50px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Set the color of the scrollbar thumb on hover */
+}
+
+/* Show the scrollbar on hover or when the mouse is inside the page */
+body.show-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+body.show-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(252, 252, 252, 0.3);
+}

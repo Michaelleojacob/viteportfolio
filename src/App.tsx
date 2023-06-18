@@ -7,7 +7,7 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div className="relative z-50">
+    <div className="z-50">
       <BrowserRouter>
         <ScreenSizeProvider>
           <NavBar />
