@@ -8,10 +8,18 @@ export interface ChildProp {
   children: ReactNode;
 }
 
-export interface AppCardProps {
+export interface App {
+  id: number;
   title: string;
+  subtitle: string;
   imgurl: string;
+  alt: string;
   repo: string;
   demo: string;
-  icons: [];
+  icons: string[];
+}
+
+export interface IconLinkTypes {
+  linkurl: string;
+  icontype: string;
 }
