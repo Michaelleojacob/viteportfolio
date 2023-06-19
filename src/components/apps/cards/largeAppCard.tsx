@@ -4,7 +4,10 @@ import AppIcons from "./icons";
 
 const LgAppCard: React.FC<{ app: App }> = ({ app }) => {
   return (
-    <div className="flex flex-col justify-center items-center gap-2">
+    <div
+      className="flex flex-col justify-center items-center gap-2"
+      style={{ minHeight: "500px" }}
+    >
       <a href={app.demo} target="blank">
         <img
           className="hover:opacity-70"

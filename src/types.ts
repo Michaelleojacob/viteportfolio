@@ -24,3 +24,8 @@ export interface IconLinkTypes {
   icontype: string;
   textSize: string;
 }
+
+export interface NavItemProps {
+  to: string;
+  label: string;
+}
