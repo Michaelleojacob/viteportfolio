@@ -1,7 +1,7 @@
 const AppData = [
   {
     id: 1,
-    title: "Photo Tagging App",
+    title: "PhotoTag",
     subtitle: "lol",
     imgurl: "findus",
     alt: "string",
@@ -34,7 +34,7 @@ const AppData = [
   },
   {
     id: 3,
-    title: "fake sticker store",
+    title: "Sticker store",
     subtitle:
       "imitates an eCommerse site. Allows you to add items to a cart. Then inspect and edit the cart, and checkout once you are done shopping.",
     imgurl: "store",

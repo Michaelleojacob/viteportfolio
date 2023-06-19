@@ -22,4 +22,5 @@ export interface App {
 export interface IconLinkTypes {
   linkurl: string;
   icontype: string;
+  textSize: string;
 }

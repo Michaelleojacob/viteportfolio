@@ -7,7 +7,7 @@ const LargeScreenLayout = () => {
       <div className="w-64">
         <StickyDrawer />
       </div>
-      <div className="flex-1 p-4">
+      <div className="flex-1">
         <AppRouter />
       </div>
     </div>
