@@ -1,6 +1,6 @@
 import { NavLink, useLocation } from "react-router-dom";
 import { ListItemButton } from "@mui/material";
-import { NavItemProps } from "../../../types";
+import { NavItemProps } from "../../../../types";
 
 const NavItem = ({ to, label }: NavItemProps) => {
   const location = useLocation();

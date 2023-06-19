@@ -1,5 +1,5 @@
-import AppRouter from "../../router";
-import NavSmScreen from "../nav/smScreen";
+import AppRouter from "../../../router";
+import NavSmScreen from "./nav/smScreen";
 
 const SmallScreenLayout = () => {
   return (
