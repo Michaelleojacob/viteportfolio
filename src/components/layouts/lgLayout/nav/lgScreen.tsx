@@ -1,5 +1,5 @@
 import { Box, List } from "@mui/material";
-import NavItem from "./navButtons/lgNavButtons";
+import NavItem from "./lgNavButtons";
 
 const NavLgScreen = () => {
   return (

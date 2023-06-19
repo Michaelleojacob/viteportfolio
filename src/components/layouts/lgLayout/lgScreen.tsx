@@ -1,5 +1,5 @@
-import AppRouter from "../../router";
-import StickyDrawer from "../nav/stickyDrawer";
+import AppRouter from "../../../router";
+import StickyDrawer from "./nav/stickyDrawer";
 
 const LargeScreenLayout = () => {
   return (

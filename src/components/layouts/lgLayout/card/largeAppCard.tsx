@@ -1,6 +1,6 @@
-import { App } from "../../../types";
-import IconLinks from "./iconLinks";
-import AppIcons from "./icons";
+import { App } from "../../../../types";
+import IconLinks from "../../../icons/iconLinks";
+import AppIcons from "../../../icons/icons";
 
 const LgAppCard: React.FC<{ app: App }> = ({ app }) => {
   return (

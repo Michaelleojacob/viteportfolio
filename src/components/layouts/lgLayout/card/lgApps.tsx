@@ -1,5 +1,5 @@
-import AppData from "../../data/appdata";
-import LgAppCard from "./cards/largeAppCard";
+import AppData from "../../../../data/appdata";
+import LgAppCard from "./largeAppCard";
 
 const LgApps = () => {
   return (

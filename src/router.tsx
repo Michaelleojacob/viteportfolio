@@ -4,7 +4,7 @@ import {
   About,
   Contact,
 } from "./components/testComponents/testComponents";
-import AppRenderer from "./components/apps/appRenderer";
+import AppRenderer from "./components/appsRenderer/appRenderer";
 
 const AppRouter = () => {
   return (

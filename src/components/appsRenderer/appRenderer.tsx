@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import { ScreenSizeContext } from "../../contextProviders/screenSizeContext";
-import LgApps from "./lgApps";
-import MdApps from "./mdApps";
-import SmApps from "./smApps";
+import LgApps from "../layouts/lgLayout/card/lgApps";
+import MdApps from "../layouts/mdLayout/card/mdApps";
+import SmApps from "../layouts/smLayout/card/smApps";
 
 const AppsRenderer = () => {
   const screenSize = useContext(ScreenSizeContext);

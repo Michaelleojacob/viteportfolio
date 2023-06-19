@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import { ScreenSizeContext } from "../../contextProviders/screenSizeContext";
-import LargeScreenLayout from "./lgScreen";
-import MediumScreenLayout from "./mdScreen";
-import SmallScreenLayout from "./smScreen";
+import LargeScreenLayout from "./lgLayout/lgScreen";
+import MediumScreenLayout from "./mdLayout/mdScreen";
+import SmallScreenLayout from "./smLayout/smScreen";
 
 const LayoutRenderer = () => {
   const screenSize = useContext(ScreenSizeContext);

@@ -1,6 +1,6 @@
 import ParticleAnimation from "./components/particles/particles";
 import { BrowserRouter } from "react-router-dom";
-import LayoutRenderer from "./components/layout/layoutRenderer";
+import LayoutRenderer from "./components/layouts/layoutRenderer";
 import { ScreenSizeProvider } from "./contextProviders/screenSizeContext";
 import "./App.css";
 
