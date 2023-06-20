@@ -21,7 +21,7 @@ const GetIconComponent = ({ icon }: { icon: string }) => {
   switch (icon) {
     case "react":
       return (
-        <Tooltip title="react">
+        <Tooltip title={<div className="text-xl">{icon}</div>}>
           <div>
             <SiReact className="text-react" />
           </div>
@@ -29,7 +29,7 @@ const GetIconComponent = ({ icon }: { icon: string }) => {
       );
     case "firebase":
       return (
-        <Tooltip title={icon}>
+        <Tooltip title={<div className="text-xl">{icon}</div>}>
           <div>
             <SiFirebase className="text-firebase" />
           </div>
@@ -37,7 +37,7 @@ const GetIconComponent = ({ icon }: { icon: string }) => {
       );
     case "router":
       return (
-        <Tooltip title={icon}>
+        <Tooltip title={<div className="text-xl">{icon}</div>}>
           <div>
             <SiReactrouter className="text-router" />
           </div>
@@ -45,7 +45,7 @@ const GetIconComponent = ({ icon }: { icon: string }) => {
       );
     case "redux":
       return (
-        <Tooltip title={icon}>
+        <Tooltip title={<div className="text-xl">{icon}</div>}>
           <div>
             <SiRedux className="text-redux" />
           </div>
@@ -53,7 +53,7 @@ const GetIconComponent = ({ icon }: { icon: string }) => {
       );
     case "javascript":
       return (
-        <Tooltip title={icon}>
+        <Tooltip title={<div className="text-xl">{icon}</div>}>
           <div>
             <SiJavascript className="text-javascript" />
           </div>
@@ -61,7 +61,7 @@ const GetIconComponent = ({ icon }: { icon: string }) => {
       );
     case "html":
       return (
-        <Tooltip title={icon}>
+        <Tooltip title={<div className="text-xl">{icon}</div>}>
           <div>
             <SiHtml5 className="text-html5" />
           </div>
@@ -69,7 +69,7 @@ const GetIconComponent = ({ icon }: { icon: string }) => {
       );
     case "css":
       return (
-        <Tooltip title={icon}>
+        <Tooltip title={<div className="text-xl">{icon}</div>}>
           <div>
             <SiCss3 className="text-css3" />
           </div>
@@ -77,7 +77,7 @@ const GetIconComponent = ({ icon }: { icon: string }) => {
       );
     case "webpack":
       return (
-        <Tooltip title={icon}>
+        <Tooltip title={<div className="text-xl">{icon}</div>}>
           <div>
             <SiWebpack className="text-webpack" />
           </div>
@@ -85,7 +85,7 @@ const GetIconComponent = ({ icon }: { icon: string }) => {
       );
     case "npm":
       return (
-        <Tooltip title={icon}>
+        <Tooltip title={<div className="text-xl">{icon}</div>}>
           <div>
             <SiNpm className="text-npm" />
           </div>
@@ -93,7 +93,7 @@ const GetIconComponent = ({ icon }: { icon: string }) => {
       );
     case "node":
       return (
-        <Tooltip title={icon}>
+        <Tooltip title={<div className="text-xl">{icon}</div>}>
           <div>
             <SiNodedotjs className="text-node" />
           </div>
@@ -101,7 +101,7 @@ const GetIconComponent = ({ icon }: { icon: string }) => {
       );
     case "typescript":
       return (
-        <Tooltip title={icon}>
+        <Tooltip title={<div className="text-xl">{icon}</div>}>
           <div>
             <SiTypescript className="text-typescript" />
           </div>
@@ -109,7 +109,7 @@ const GetIconComponent = ({ icon }: { icon: string }) => {
       );
     case "nextjs":
       return (
-        <Tooltip title={icon}>
+        <Tooltip title={<div className="text-xl">{icon}</div>}>
           <div>
             <SiNextdotjs className="text-nextjs" />
           </div>
@@ -117,7 +117,7 @@ const GetIconComponent = ({ icon }: { icon: string }) => {
       );
     case "postgressql":
       return (
-        <Tooltip title={icon}>
+        <Tooltip title={<div className="text-xl">{icon}</div>}>
           <div>
             <SiPostgresql className="text-postgressql" />
           </div>
@@ -125,7 +125,7 @@ const GetIconComponent = ({ icon }: { icon: string }) => {
       );
     case "mongodb":
       return (
-        <Tooltip title={icon}>
+        <Tooltip title={<div className="text-xl">{icon}</div>}>
           <div>
             <SiMongodb className="text-mongodb" />
           </div>
@@ -133,7 +133,7 @@ const GetIconComponent = ({ icon }: { icon: string }) => {
       );
     case "jest":
       return (
-        <Tooltip title={icon}>
+        <Tooltip title={<div className="text-xl">{icon}</div>}>
           <div>
             <SiJest className="text-jest" />
           </div>
