@@ -1,23 +1,28 @@
+import { Box } from "@mui/material";
 import { App } from "../../../../types";
 import IconLinks from "../../../icons/iconLinks";
 import AppIcons from "../../../icons/icons";
 
-const LgAppCard = ({ app }: { app: App }) => {
+const SmScreenCard = ({ app }: { app: App }) => {
   return (
-    <div
-      className="flex flex-col justify-center items-center gap-2"
-      style={{ minHeight: "500px" }}
+    <Box
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        gap: "0.5rem",
+        alignItems: "center",
+      }}
     >
       <a href={app.demo} target="_blank">
         <img
           className="hover:opacity-70"
           src={`images/${app.imgurl}.jpg`}
           alt={app.alt}
-          height={300}
-          width={300}
-        />
+          height={500}
+          width={500}
+        ></img>
       </a>
-      <a href={app.demo} className="text-3xl">
+      <a href={app.demo} className="text-4xl">
         {app.title}
       </a>
       <div className="flex gap-2 flex-wrap">
@@ -27,8 +32,8 @@ const LgAppCard = ({ app }: { app: App }) => {
       <div className="flex">
         <AppIcons icons={app.icons} />
       </div>
-    </div>
+    </Box>
   );
 };
 
-export default LgAppCard;
+export default SmScreenCard;
