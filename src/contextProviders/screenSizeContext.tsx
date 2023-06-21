@@ -9,9 +9,9 @@ export const ScreenSizeProvider = ({ children }: ChildProp) => {
   useEffect(() => {
     const handleResize = () => {
       const width = window.innerWidth;
-      if (width < 600) {
+      if (width < 700) {
         setScreenSize("small");
-      } else if (width >= 600 && width < 1024) {
+      } else if (width >= 700 && width < 1024) {
         setScreenSize("medium");
       } else {
         setScreenSize("large");
