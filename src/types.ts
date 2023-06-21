@@ -28,4 +28,5 @@ export interface IconLinkTypes {
 export interface NavItemProps {
   to: string;
   label: string;
+  Icon?: ReactNode;
 }
