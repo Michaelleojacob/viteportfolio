@@ -2,7 +2,7 @@ import { App } from "../../../../types";
 import IconLinks from "../../../icons/iconLinks";
 import AppIcons from "../../../icons/icons";
 
-const LgAppCard: React.FC<{ app: App }> = ({ app }) => {
+const LgAppCard = ({ app }: { app: App }) => {
   return (
     <div
       className="flex flex-col justify-center items-center gap-2"
