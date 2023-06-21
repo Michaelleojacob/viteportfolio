@@ -11,6 +11,7 @@ const SmScreenCard = ({ app }: { app: App }) => {
         flexDirection: "column",
         gap: "0.5rem",
         alignItems: "center",
+        padding: "1rem",
       }}
     >
       <a href={app.demo} target="_blank">
