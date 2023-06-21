@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         borderColor: "#2e344e",
+        menu: "#191d2b",
         html5: "#d84924",
         css3: "#2449d8",
         redux: "#7046b2",

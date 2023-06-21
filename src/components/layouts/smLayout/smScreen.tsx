@@ -4,7 +4,6 @@ import NavSmScreen from "./nav/smScreen";
 const SmallScreenLayout = () => {
   return (
     <>
-      <div>SmallScreenLayout</div>
       <NavSmScreen />
       <AppRouter />
     </>
